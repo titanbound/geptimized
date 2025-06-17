@@ -21,7 +21,7 @@ Ideal for users who demand **minimal frame drops**, **low input lag**, and **net
 
 * [Electron](https://www.electronjs.org/) `v36.4.0`
 * [discord-rich-presence](https://github.com/devsnek/discord-rich-presence)
-* [Electron Builder](https://www.electron.build/) or [Electron Forge](https://www.electronforge.io/)
+* [Electron Builder](https://www.electron.build/) 
 
 ---
 
