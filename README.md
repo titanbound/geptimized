@@ -1,6 +1,6 @@
 # Geptimized
 
-**Geptimized** is a cross-platform, performance-optimized Electron wrapper for **NVIDIA GeForce NOW**. It’s built for ultra-low latency, high responsiveness, and extended stability — even during long cloud gaming sessions.
+**Geptimized** is a performance-optimized Electron wrapper for **NVIDIA GeForce NOW**. It’s built for ultra-low latency, high responsiveness, and extended stability — even during long cloud gaming sessions.
 
 Ideal for users who demand **minimal frame drops**, **low input lag**, and **network-level optimizations** — especially when using GeForce NOW on constrained or high-performance systems.
 
