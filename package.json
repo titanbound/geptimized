@@ -1,0 +1,55 @@
+{
+  "name": "geptimized",
+  "productName": "Optimized GeForce NOW Client",
+  "version": "0.0.1",
+  "description": "Optimized Cross-platform desktop app for GeForce NOW",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --publish never"
+  },
+  "build": {
+    "asar": false,
+    "files": [
+      "**/*"
+    ],
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ]
+    },
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "zip"
+      ],
+      "category": "Game"
+    },
+    "publish": null
+  },
+  "keywords": [
+    "electron",
+    "geforcenow",
+    "gfn",
+    "desktop"
+  ],
+  "author": "titanbound",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^36.4.0",
+    "electron-builder": "^25.1.8"
+  },
+  "dependencies": {
+    "discord-rich-presence": "^0.0.8",
+    "electron-localshortcut": "^3.2.1",
+    "find-process": "^1.4.10"
+  }
+}
